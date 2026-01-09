@@ -13,7 +13,7 @@ app.get('/health', (req, res) => {
 
 // The Home Page
 app.get('/', (req, res) => {
-  res.send('<h1>Welcome to my first DevOps Project!</h1><p>Phase 1 is now officially complete.</p>');
+  res.send('<h1>Welcome to my first DevOps Project!</h1><p>Automation set</p>');
 });
 
 app.listen(PORT, () => {
